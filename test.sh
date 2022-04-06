@@ -13,5 +13,5 @@ else
     exit 1
 fi
 
-OS_ARCH=(uname -m)
+OS_ARCH=$(uname -m)
 echo "Detecting ${PRETTY_NAME} on ${OS_ARCH}"
